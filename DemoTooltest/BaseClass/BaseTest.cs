@@ -34,7 +34,7 @@ namespace DemoTooltest.BaseClass
         [TearDown]
         public void Close()
         {
-           // driver.Quit();
+           driver.Quit();
         }
     }
 }
